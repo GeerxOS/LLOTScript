@@ -1,8 +1,13 @@
-import os
-from time import sleep
-from colorama import Fore
-from scripts.iptracker import iptracker
-from scripts.backdoorc import backdoorc
+try:
+    import os
+    from time import sleep
+    from colorama import Fore
+    from scripts.iptracker import iptracker
+    from scripts.backdoorc import backdoorc
+
+except(ImportError):
+    print(f"{verde}[{rojo}-{verde}] {reset}Some things could not be imported run the installation again.")
+
 
 # Variables colores y mas
 
@@ -84,6 +89,6 @@ def main():
         print(f"{azul}[{rojo}-{azul}] {opc} Is not a command!")
         main()
         time.sleep(2)
-        
+
 if __name__ == '__main__':
     main()
