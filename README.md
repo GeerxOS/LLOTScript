@@ -3,7 +3,7 @@
 ![Alt Text](https://raw.githubusercontent.com/GeerxOS/LLOTScript/main/oooh.gif)
 
 
-# Instalacion
+# Installation
 
 「1」 - git clone https://github.com/GeerxOS/LLOTScript
 
