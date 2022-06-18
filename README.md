@@ -1,2 +1,18 @@
 # #                   LLOT Script 
-![Alt Text](687474703a2f2f7061312e6e61727669692e636f6d2f363336342f353533623738646566333833316535306364343464633266313764353138356564653734303231365f30302e676966)
+
+![Alt Text](https://raw.githubusercontent.com/GeerxOS/LLOTScript/main/oooh.gif)
+
+
+# Instalacion
+
+「1」 - git clone https://github.com/GeerxOS/LLOTScript
+
+「2」 - cd LLOTScript
+
+「3」 - sudo bash install.sh or sudo bash install_arch.sh
+
+(depending on your system) - sudo bash install_arch.sh for arch linux and sudo bash install.sh for debian (Kali linux, parrot, etc)
+
+「4」 - chmod 777 llot
+
+「5」 - ./llot
